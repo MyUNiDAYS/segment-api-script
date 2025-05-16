@@ -1,50 +1,14 @@
+// todo: use your own token
 const token =
   "sgp_uPakg0SUZTinqNPx4FBMhx956FXMdmi8IBirjhssCjyopqRz2ra4JbIa9XSqdHEO";
 
-// todo: add the mappings here of name to destination id
+// todo: add the mappings here of ALL relevant name to destination id
 const destinations = {
   "SOURCE:_ReactNativeAppProd_DEST:_Bloomreach": "67ff7e0a66d10a57eff83029",
 };
 
-const apiRequest = async (url: string, method: string = "GET", body?: any) => {
-  const res = await fetch("https://api.segmentapis.com" + url, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-      "Content-Type": "application/json",
-    },
-    method,
-    body: body ? JSON.stringify(body) : undefined,
-  });
-  return res.json();
-};
-
-function getDestination(id?: string) {
-  return apiRequest(`/destinations/${id}`);
-}
-
-function getDestinationFilters(id?: string) {
-  return apiRequest(`/destination/${id}/filters`);
-}
-
-function getDestinationFilter(id?: string, filterId?: string) {
-  return apiRequest(`/destination/${id}/filters/${filterId}`);
-}
-
-function updateDestinationFilter(destId: string, filterId: string, body: {}) {
-  return apiRequest(
-    `/destination/${destId}/filters/${filterId}`,
-    "PATCH",
-    body
-  );
-}
-
-function createDestinationFilter(destId: string, sourceId: string, body: {}) {
-  return apiRequest(`/destination/${destId}/filters`, "POST", {
-    sourceId,
-    ...body,
-  });
-}
-
+// todo: update this to be the filter you want to apply, so the title and the
+// actions would be the main things to edit / change
 const excludePropertiesRule = {
   title: "Filter all Context Fields (new)",
   description:
@@ -117,3 +81,42 @@ async function main() {
 }
 
 main();
+
+async function apiRequest(url: string, method: string = "GET", body?: any) {
+  const res = await fetch("https://api.segmentapis.com" + url, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+      "Content-Type": "application/json",
+    },
+    method,
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  return res.json();
+}
+
+function getDestination(id?: string) {
+  return apiRequest(`/destinations/${id}`);
+}
+
+function getDestinationFilters(id?: string) {
+  return apiRequest(`/destination/${id}/filters`);
+}
+
+function getDestinationFilter(id?: string, filterId?: string) {
+  return apiRequest(`/destination/${id}/filters/${filterId}`);
+}
+
+function updateDestinationFilter(destId: string, filterId: string, body: {}) {
+  return apiRequest(
+    `/destination/${destId}/filters/${filterId}`,
+    "PATCH",
+    body
+  );
+}
+
+function createDestinationFilter(destId: string, sourceId: string, body: {}) {
+  return apiRequest(`/destination/${destId}/filters`, "POST", {
+    sourceId,
+    ...body,
+  });
+}
