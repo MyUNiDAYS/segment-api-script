@@ -1,0 +1,38 @@
+{
+  "title": "Filter all Context Fields (new)",
+  "description": "All Contexts have been filtered from event fields as Bloomreach cannot handle attribute event sizes larger than 255 properties. The above causes the event to balloon in size and the result is the event gets dropped from the Bloomreach side. The filter stops this happening.",
+  "if": "all",
+  "enabled": true,
+  "actions": [
+    {
+      "type": "DROP_PROPERTIES",
+      "fields": {
+        "context": [
+          "app",
+          "device",
+          "traits",
+          "consent",
+          "instanceId",
+          "ip",
+          "library",
+          "event_transformed",
+          "locale",
+          "network",
+          "os",
+          "protocols",
+          "screen",
+          "referrer",
+          "transforms_beta",
+          "active",
+          "page",
+          "userAgent",
+          "userAgentData",
+          "channel",
+          "groupId",
+          "campaign",
+          "timezone"
+        ]
+      }
+    }
+  ]
+}

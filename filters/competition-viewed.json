@@ -1,0 +1,11 @@
+{
+  "title": "Competition Viewed",
+  "description": "Competition Viewed events are not needed",
+  "if": "event = 'Competition Viewed'",
+  "enabled": true,
+  "actions": [
+    {
+      "type": "DROP"
+    }
+  ]
+}
