@@ -1,0 +1,11 @@
+{
+  "title": "Drop Offer Accessed",
+  "description": "Drop Offer Accessed events as they are not needed",
+  "if": "event = 'Offer Accessed'",
+  "enabled": true,
+  "actions": [
+    {
+      "type": "DROP"
+    }
+  ]
+}

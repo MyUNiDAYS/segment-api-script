@@ -1,0 +1,24 @@
+{
+  "title": "Filter for Perk Accessed",
+  "description": "Filter for Perk Accessed events to allow the context properties to be passed through to Bloomreach",
+  "if": "event = 'Perk Accessed'",
+  "enabled": true,
+  "actions": [
+    {
+      "type": "ALLOW_PROPERTIES",
+      "fields": {
+        "context": [
+          "codesMode",
+          "label",
+          "partner",
+          "partnerId",
+          "perkChannel",
+          "perkDetail",
+          "perkId",
+          "perkSubdomain",
+          "platform"
+        ]
+      }
+    }
+  ]
+}
