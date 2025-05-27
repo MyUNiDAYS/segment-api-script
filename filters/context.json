@@ -1,0 +1,14 @@
+{
+  "title": "Context properties allowed",
+  "description": "Filter for Application Opened events to allow the context properties to be passed through to Bloomreach",
+  "if": "all",
+  "enabled": true,
+  "actions": [
+    {
+      "type": "ALLOW_PROPERTIES",
+      "fields": {
+        "context": ["app", "device", "locale", "os"]
+      }
+    }
+  ]
+}

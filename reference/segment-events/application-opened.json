@@ -1,0 +1,71 @@
+{
+  "context": {
+    "app": {
+      "build": "1",
+      "name": "U***",
+      "namespace": "com.myunidays",
+      "version": "10.0.0"
+    },
+    "consent": {
+      "categoryPreferences": {
+        "Gx9iMF__f": true,
+        "O97xcRJFR": true,
+        "diWdt4yLB": true,
+        "u1M5M8ss4": true
+      }
+    },
+    "device": {
+      "manufacturer": "Google",
+      "model": "sdk_gphone64_arm64",
+      "name": "e***",
+      "type": "android"
+    },
+    "instanceId": "c58eeaf7-b330-4a86-b977-3236c18d316e",
+    "ip": "1***.8***.2***.5***",
+    "library": {
+      "name": "analytics-react-native",
+      "version": "2.20.3"
+    },
+    "locale": "en-US",
+    "network": {
+      "cellular": false,
+      "wifi": true
+    },
+    "os": {
+      "name": "A***",
+      "version": "15"
+    },
+    "protocols": {
+      "sourceId": "m5YaCcBwDZ3JMSbMoUmr59"
+    },
+    "screen": {
+      "density": 2.625,
+      "height": 2400,
+      "width": 1080
+    },
+    "timezone": "Europe/London",
+    "traits": {}
+  },
+  "event": "Application Opened",
+  "integrations": {},
+  "messageId": "038ff01c-6709-4243-91cc-94628c636af2",
+  "originalTimestamp": "2025-05-20T12:00:14.578Z",
+  "properties": {
+    "appState": "active",
+    "build": "1",
+    "from_background": false,
+    "memberType": "student",
+    "platform": "android",
+    "region": "GB",
+    "screenName": "Content Home Feed",
+    "source": "app",
+    "userId": "EGwmU8uB-EKTIvk5fOiLZA==",
+    "userState": "Anon",
+    "version": "1***.0***.0***.1***"
+  },
+  "receivedAt": "2025-05-20T12:01:01.938Z",
+  "sentAt": "2025-05-20T12:01:00.155Z",
+  "timestamp": "2025-05-20T12:00:16.361Z",
+  "userId": "EGwmU8uB-EKTIvk5fOiLZA==",
+  "type": "track"
+}
