@@ -1,0 +1,89 @@
+{
+  "anonymousId": "f878df14-3a04-4e42-93eb-961907b1799c",
+  "context": {
+    "campaign": {},
+    "ip": "8***.1***.7***.1***",
+    "library": {
+      "name": "analytics.js",
+      "version": "npm:next-1.76.0"
+    },
+    "locale": "en-GB",
+    "page": {
+      "path": "/GB/en-GB/home-v2",
+      "referrer": "https://www.myunidays.com/GB/en-GB",
+      "search": "?rd=true",
+      "title": "Free Student Discounts | Exclusive discount codes and Deals | UNiDAYS",
+      "url": "https://www.myunidays.com/GB/en-GB/home-v2?rd=true"
+    },
+    "protocols": {
+      "sourceId": "WrvDgFcNWb"
+    },
+    "timezone": "Europe/London",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/1***.0***.0***.0*** Safari/537.36",
+    "userAgentData": {
+      "brands": [
+        {
+          "brand": "Chromium",
+          "version": "136"
+        },
+        {
+          "brand": "Google Chrome",
+          "version": "136"
+        },
+        {
+          "brand": "Not.A/Brand",
+          "version": "99"
+        }
+      ],
+      "mobile": false,
+      "platform": "macOS"
+    }
+  },
+  "event": "Content Impression",
+  "integrations": {
+    "DoubleClick Floodlight": true,
+    "Google Analytics": true,
+    "Google Tag Manager": true,
+    "LaunchDarkly": true,
+    "Segment.io": {
+      "deliveryStrategy": {
+        "config": {
+          "keepalive": true
+        }
+      }
+    }
+  },
+  "messageId": "ajs-next-1747745165198-799c1a4c-f671-4aba-b17a-cfc4912033e6",
+  "originalTimestamp": "2025-05-20T12:46:05.198Z",
+  "properties": {
+    "action": "Content Impression",
+    "category": "content",
+    "contentName": "Graduated? Get GRADLiFE 22-Oct-20",
+    "contentType": "tile",
+    "flightId": "12639888",
+    "gender": "M***",
+    "interactionEvent": "FALSE",
+    "label": "Graduated? Get GRADLiFE 22-Oct-20",
+    "launchDarklyId": "780b8f39-26dc-463e-80f3-6f275758b807",
+    "linkDestination": "https://www.myunidays.com/GB/en-GB/status-selection",
+    "linkType": "internal",
+    "partner": "UNiDAYS",
+    "partnerId": "300312a7-4ecc-424e-86e2-01bd7f42553c",
+    "placement": "highlight",
+    "platform": "Www",
+    "position": 0,
+    "priorityId": "131853",
+    "region": "GB",
+    "relativePosition": 1,
+    "source": "www",
+    "subdomain": "www",
+    "tileId": "e1126982-a78e-4e35-820b-c7ceb865e10a",
+    "userState": "Expired",
+    "version": "vnext"
+  },
+  "receivedAt": "2025-05-20T12:46:09.567Z",
+  "sentAt": "2025-05-20T12:46:05.211Z",
+  "timestamp": "2025-05-20T12:46:09.554Z",
+  "type": "track",
+  "userId": "EGwmU8uB-EKTIvk5fOiLZA=="
+}

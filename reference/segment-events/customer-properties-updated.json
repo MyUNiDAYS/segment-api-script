@@ -1,0 +1,26 @@
+{
+  "context": {
+    "UDApplication": "UD.Service.Win.Marketing",
+    "library": {
+      "name": "Analytics.NET",
+      "version": "2.0.3"
+    },
+    "protocols": {
+      "sourceId": "RvPNcBBDz2"
+    },
+    "source": "marketing-automation-student-cpra-consent-changed"
+  },
+  "event": "Customer Properties Updated",
+  "integrations": {},
+  "messageId": "api-2xMRxvlwhCcyL4CqCeLcrzPu2E2",
+  "properties": {
+    "CpraOptOutDateTime": 1747746199,
+    "isCpraOptOut": true,
+    "memberId": "EGwmU8uB-EKTIvk5fOiLZA==",
+    "originalEventName": "marketing-automation-student-cpra-consent-changed"
+  },
+  "receivedAt": "2025-05-20T13:03:23.996Z",
+  "timestamp": "2025-05-20T13:03:23.996Z",
+  "type": "track",
+  "userId": "EGwmU8uB-EKTIvk5fOiLZA=="
+}
